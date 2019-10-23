@@ -5,7 +5,7 @@ $city="Đà Nẵng";
 
 $mobile="0123456789";
 
-Echo "<i style='font-size:30px';>Tên:</i> <b>$name.</b> <br>";
+Echo "<i style='font-size:30px';>Tên:</i> <b style='font-size:30px; color:blue'>$name.</b> <br>";
 
 Echo "Nơi sinh :<i> $city.</i><br>";
 
