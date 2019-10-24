@@ -11,7 +11,7 @@ Echo "Nơi sinh :<i> $city.</i><br>";
 
 Echo "SĐT : <u>$mobile. </u><br>";
 
-$month = 3;
+$month = 5;
 $year=2019;
 switch($month){
 case 1:
