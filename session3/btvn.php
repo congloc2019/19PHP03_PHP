@@ -1,6 +1,6 @@
 
 <?php
-$errName = $errDescription = $errCity = $errEmail = $errDateout = $errDatein = $errFile =  ""; 
+$errName = $errDescription  = $errEmail = $errDateout = $errDatein = $errFile =  ""; 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
 if(empty($_POST['Name']) == false) {
 
@@ -12,11 +12,7 @@ if(empty($_POST['Description']) == false) {
 } else {
 $errDescription = "Description không được rỗng";
 }
-if(empty($_POST['City']) == false) {
 
-} else {
-$errCity = "City không được rỗng";
-}
 if(empty($_POST['Email']) == false) {
 
 } else {
