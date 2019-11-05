@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form8</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form method="post">
+	Username
+		<input type="text" name="Username">
+			<span class = "error"><?php echo $errUsername; ?></span>
+	<br>
+	Mô tả
+		<input type="textarea" name="mota"><?php echo $errMota; ?><br>
+	Giá
+	<input type="number" name="prince"><?php echo $errNumber; ?><br>
+	Hình ảnh
+	<input type="file" name="file"><?php echo $errFile; ?><br>
+	Ngày đăng
+	<input type="date" name="date_in" value=""><?php echo $errDate_in; ?><br>
+	Ngày hết hạn
+	<input type="date" name="date_off" value=""><?php echo $errDate_off; ?><br>
+	<input type="submit" name="btn_submit" value="Dang ky">
+	</form>
+	<style type="text/css">
+		.error{
+			color: red;
+		}
+	</style>
+</body>
+</html>
